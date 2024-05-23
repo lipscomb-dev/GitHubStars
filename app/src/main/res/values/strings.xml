@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Github Stars</string>
+    <string name="generic_error_message">Uh oh!\n\nSomething went wrong,\nplease try again later.</string>
+    <string name="owner_avatar_image_content_description">Owner Avatar Image</string>
+    <string name="stars_content_description">Stars</string>
+    <string name="watchers_content_description">Watchers</string>
+    <string name="top_contributor_label">"Top Contributor: "</string>
+    <string name="top_contributor_avatar_image_content_description">Top Contributor Avatar Image</string>
+    <string name="tap_to_load_top_contributor">Tap to load top contributor</string>
+</resources>
