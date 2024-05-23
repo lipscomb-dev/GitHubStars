@@ -41,7 +41,8 @@ class RepoListViewModel @Inject constructor(
                 val index = storedRepos.indexOf(repo)
                 val updatedRepos = storedRepos.toMutableList()
                 updatedRepos[index] = repo.copy(topContributor = topContributor)
-                setReadyState(updatedRepos)
+                storedRepos = updatedRepos
+                setReadyState(storedRepos)
             } catch (exception: Exception) {
                 setErrorState(exception)
             }
