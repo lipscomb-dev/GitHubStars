@@ -1,7 +1,9 @@
 # GitHubStars
  Brightwheel Take Home Assignment
 
----
+ |Light Mode|Dark Mode|
+ |----------|---------|
+ |![Screenshot of GitHub Stars in Light Mode](/imgs/light_mode.jpg)|![Screenshot of GitHub Stars in Dark Mode](/imgs/dark_mode.jpg)|
 
 # Build Information
 
@@ -10,7 +12,9 @@ Build #AI-232.10300.40.2321.11567975, built on March 12, 2024
 
 Kotlin 1.9.23
 
----
+### Test Device
+- Galaxy Fold 5 (Physical)
+- Pixel 3a - API 31 (Emulator)
 
 # Features
 - Fetch top 100 repositories by stars ✅
@@ -20,8 +24,6 @@ Kotlin 1.9.23
 - MVVM ✅
 - Dependency Injection with Hilt ✅
 - Unit Tests ❌
-
----
 
 # Tradeoffs & Decisions
 **Reveal Top Contributor**
@@ -48,8 +50,6 @@ Ran out of time, but adding this to Coil would not be a heavy lift. I would add
 the imageLoader to the domain DI module, and send the hoisted imageLoader to
 the composable's AsyncImage
 
----
-
 # Additional Information
 There is more I would love to do with this app including:
 - Details Screen
@@ -58,6 +58,5 @@ There is more I would love to do with this app including:
 - Pull to refresh, for forced refresh
 - Filtering by the topic based on this top 100
 
----
 Thank you for the opportunity, this was a fun project with some unique aspects to it.
 # Made With Love ❤️
